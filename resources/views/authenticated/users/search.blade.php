@@ -32,13 +32,13 @@
       </div>
       <div>
         @if($user->role == 1)
-        <span>役職 : </span><span>教師(国語)</span>
+        <span>権限 : </span><span>教師(国語)</span>
         @elseif($user->role == 2)
-        <span>役職 : </span><span>教師(数学)</span>
+        <span>権限 : </span><span>教師(数学)</span>
         @elseif($user->role == 3)
-        <span>役職 : </span><span>講師(英語)</span>
+        <span>権限 : </span><span>講師(英語)</span>
         @else
-        <span>役職 : </span><span>生徒</span>
+        <span>権限 : </span><span>生徒</span>
         @endif
       </div>
       <div>
